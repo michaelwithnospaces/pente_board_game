@@ -1,0 +1,9 @@
+Rules
+
+Pente is played on a 19x19 grid of intersections similar to a Go board. Players alternate placing stones of their color on empty intersections, with White always assuming the opening move. The goal of the game is to either align five or more stones of the same color in a row in any vertical, horizontal or diagonal direction or to make five captures.
+
+Stones are captured by custodial capture (flanking an adjacent pair of an opponent's stones directly on either side with your own stones). Captures consist of exactly two stones; flanking a single stone or three or more stones does not result in a capture. As an example, if the stones are X O O _ and "X" places their stone so it becomes X O O X, then the opponent's stones are removed from the board, leaving X _ _ X.
+
+A stone may legally be placed on any empty intersection, even if it forms a pair between two enemy stones. If the stones are placed X O _ X , then "O" may place their stone so it becomes X O O X. The stones are not captured in this case.
+
+A player wins if they capture ten or more stones
